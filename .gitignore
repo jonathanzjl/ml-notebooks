@@ -1,0 +1,13 @@
+
+# Temp files
+*~
+*.tmp
+__pycache__
+.ipynb_checkpoints
+
+# Projectile TAG
+TAGS
+
+# Pointpoint files
+*.ppt
+*.pptx
