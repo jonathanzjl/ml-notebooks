@@ -1,0 +1,3 @@
+2018-12-06  Zhijin Li  <jonathan.zj.lee@gmail.com>
+
+	* chap03_generative_learning/vae_tf.py: Fix license clause.

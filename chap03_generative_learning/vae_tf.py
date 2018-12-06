@@ -1,14 +1,40 @@
 #! /usr/bin/env python3
+# Copyright (C) 2018  Zhijin Li
+
+# All rights reserved.
+
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted provided that the following conditions are
+# met:
+
+#     * Redistributions of source code must retain the above copyright
+# notice, this list of conditions and the following disclaimer.
+#     * Redistributions in binary form must reproduce the above
+# copyright notice, this list of conditions and the following disclaimer
+# in the documentation and/or other materials provided with the
+# distribution.
+
+# THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+# "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+# LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+# A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+# OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+# SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+# LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+# DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+# THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+# (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+# OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
 ## ---------------------------------------------------------------------------
-## Copyright (c) 2018 by General Electric Medical Systems
 ##
-## vae_tf.py for VAE
+## File: vae_tf.py for ml-notebooks
 ##
-## Made by Zhijin Li
-## Mail:   <jonathan.li@ge.com>
+## Created by Zhijin Li
+## E-mail:   <jonathan.zj.lee@gmail.com>
 ##
-## Started on  Mon Apr  9 17:43:51 2018 Zhijin Li
-## Last update Tue Jul 17 11:30:37 2018 Zhijin Li
+## Started on  Thu Dec  6 22:57:33 2018 Zhijin Li
+## Last update Thu Dec  6 22:57:45 2018 Zhijin Li
 ## ---------------------------------------------------------------------------
 
 
@@ -133,6 +159,7 @@ class VariationalAutoEncoder():
     self.pool_ksize   = pool_ksize
     self.pad          = pad
     self.small        = 1e-3
+
 
   def init_network(self, im_shape, optimizer, log_dir):
     """
