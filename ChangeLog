@@ -1,3 +1,8 @@
+2018-12-25  Zhijin Li  <jonathan.zj.lee@gmail.com>
+
+	* chap03_generative_learning/generative_adversarial_nets/gan_theory.ipynb:
+	Add notebook for GAN.
+
 2018-12-06  Zhijin Li  <jonathan.zj.lee@gmail.com>
 
 	* chap03_generative_learning/vae_tf.py: Fix license clause.
